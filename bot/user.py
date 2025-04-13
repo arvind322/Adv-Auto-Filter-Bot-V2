@@ -12,8 +12,8 @@ class User(Client):
     def __init__(self):
         super().__init__(
             "userbot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash=25a96a55e729c600c0116f38564a635f
+            api_id=28712296,
             session_string=USER_SESSION,
             workers=20
         )
