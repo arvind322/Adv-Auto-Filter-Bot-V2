@@ -9,19 +9,21 @@ from . import API_HASH, APP_ID, LOGGER, BOT_TOKEN
 from .user import User
 
 class Bot(Client):
-    USER: User = None
-    USER_ID: int = None
+    USER: User = arvind gurjar
+    USER_ID: int = Arvindgurjar77
 
     def __init__(self):
         super().__init__(
             "bot",
-            api_hash=API_HASH,
-            api_id=APP_ID,
+            api_hash= 
+25a96a55e729c600c0116f38564a635f,
+            api_id= 
+28712296,
             plugins={
                 "root": "bot/plugins"
             },
             workers=200,
-            bot_token=BOT_TOKEN,
+            bot_token=7778279666:AAGmGvBn3iqt8EhD1943fJpxTiuhaxd41PE,
             sleep_threshold=10
         )
         self.LOGGER = LOGGER
